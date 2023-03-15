@@ -1,0 +1,33 @@
+.grid-main {
+    display: grid;
+    grid-template-areas:
+                        "numéro signe";
+    grid-template-columns: 300px 100px;
+    grid-template-rows: 400px;
+    gap: 5px;   
+    
+}
+
+  
+  
+  
+  
+.grid-numéro {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+}
+.grid-signe {
+    grid-area: signe;
+  }
+
+
+.grid-signe {
+    display: grid;
+}
+
+.grid-fonction{
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+
+  
